@@ -82,7 +82,7 @@ $(function (myTest) {
              $('.container').show();
           } else {
             $('.container').each(function() {
-              if (filterArr.indexOf($(this).data('user_id')) > 0) {
+              if (filterArr.indexOf($(this).data('user_id')) > -1) {
                 $(this).show();
               } else {
                 $(this).hide();
