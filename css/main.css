@@ -1,0 +1,48 @@
+
+html body * {box-sizing: border-box}
+
+
+.container {
+    border:1px solid gray; width:250px; margin: 5px;  float:left; height:90px;
+    text-align: center;
+}
+
+.head{
+    background-color: black;
+    color:white;
+    
+}
+.user{
+    background-color: silver;
+}
+
+.body{height:35px;}
+
+.foot.incomplete{
+    background-color: red;
+}
+.foot.complete{
+    background-color: green;
+}
+
+ul#filterbar li {
+    display:inline; 
+    padding:4px;
+    border:1px solid white;
+    color:white;
+    background-color: black;  
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+   
+}
+
+ 
+#filterbar li:hover {
+background-color: #111111;
+}
+#filterbar li.active {
+background-color: blue;
+}
+
